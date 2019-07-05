@@ -1,5 +1,7 @@
 # ExpectObservableIssueDemo
 
+Demo to show a possible problem with rxjs TestScheduler - expectObservable()
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 
 ## Development server
