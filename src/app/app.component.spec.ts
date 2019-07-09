@@ -24,7 +24,7 @@ describe('AppComponent', () => {
 
         const s1 = cold('--a|', { a: 'x' });
 
-        expectObservable(s1).toBe('--a|', ['x']);
+        expectObservable(s1).toBe('--a|', { a: 'x' });
       });
     });
 
@@ -35,7 +35,7 @@ describe('AppComponent', () => {
 
         const s1 = cold('--a|', { a: 'x' });
 
-        expectObservable(s1).toBe('--a|', ['y']);
+        expectObservable(s1).toBe('--a|', { a: 'y' });
       });
     });
 
